@@ -1,0 +1,106 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+}
+ul,ol,li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+button {
+    transition: 0.5s;
+}
+html, body {
+	height: 100%;
+	line-height: 1;
+    background: #FFF;
+    font-family: 'Inter', sans-serif;
+    color: #000000; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+._container {
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+    background: #0C0C0E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.header__logo {
+}
+.header__logo__title {
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 166.667%;
+    letter-spacing: 0.6px;
+}
+.header__nav-profile {
+    display: flex;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+}
+.header__item {
+    margin: 0 30px 0 0;
+}
+.header__item:last-child {
+    margin: 0;
+}
+/* .header__item:hover {
+    border-bottom: 3px solid #FFF;
+} */
+.header__link {
+    color: #FFF;
+    line-height: 250%;
+    transition: 0.5s;
+}
+.header__link:hover {
+    color: #BB945F;
+    transition: 0.5s;
+}
+.header__profile {
+    margin: 0 0 0 40px;
+    display: flex;
+    align-items: center;
+}
+.header__profile__icon {
+}
+.main {
+}
+.footer {
+}
