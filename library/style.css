@@ -87,6 +87,7 @@ html, body {
 .header__link {
     color: #FFF;
     line-height: 250%;
+    transition: 0.5s;
 }
 .header__link:hover {
     color: #BB945F;
