@@ -228,12 +228,18 @@ html, body {
 .favorite__season {
     font-weight: 700;
     line-height: normal;
-    margin: 40px 0;
+    margin: 41px 0;
 }
 .favorite__season__checked {
     width: 700px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 42px;
+}
+.favorite__season__checked label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .favorite__season__checked label.active{
     font-weight: 700;
@@ -241,6 +247,80 @@ html, body {
 .favorite__season__checked label input {
     margin-right: 20px;
     accent-color: black;
+    width: 17px;
+    height: 17px;
+}
+.favorite__carousel__books {
+}
+.carousel__books {
+}
+.carousel__books-items {
+}
+.carousel__books-item {
+    border: 1px solid #000;
+    width: 550px;
+    height: 555px;
+    padding: 14px 174px 14px 19px;
+    position: relative;
+}
+.books-item_title {
+    font-family: Forum;
+    line-height: 200%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.books-item_title-line {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+}
+.books-item_name {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 266.667%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.books-item_author {
+    text-transform: capitalize;
+}
+.books-item_description {
+    font-size: 15px;
+    line-height: 266.667%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.books-item_btn {
+    color: #0C0C0E;
+    cursor: pointer;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 9px 27px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    background-color: transparent;
+}
+.books-item_btn:hover {
+    border: 1px solid #BB945F;
+    color: #BB945F;
+}
+.books-item_img {
+    position: absolute;
+    top: 255px;
+    right: -40px;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+}
+.books-item_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 /* ------------------- */
 .footer {
