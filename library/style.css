@@ -181,6 +181,7 @@ html, body {
 }
 .carousel_items {
     display: flex;
+    overflow: hidden;
 }
 .carousel__item {
     min-width: 450px;
