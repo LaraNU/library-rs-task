@@ -34,7 +34,7 @@ html, body {
     font-weight: 400;
     font-size: 20px;
     scroll-behavior: smooth;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 ._container {
     max-width: 1400px;
@@ -172,6 +172,46 @@ html, body {
     text-align: center;
     line-height: 200%;
     margin: 40px 0 20px;
+}
+.about__carousel {
+}
+._carousel {
+}
+.carousel__wrapper {
+}
+.carousel_items {
+    display: flex;
+}
+.carousel__item {
+    min-width: 450px;
+    height: 560px;
+    overflow: hidden;
+    margin: 0 25px 0 0;
+}
+.carousel__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel__nav {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel__nav-dot {
+    border-radius: 50%;
+    background-color: #0C0C0E;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+}
+.carousel__nav-dot:last-child {
+    margin: 0;
+}
+.dot-active {
+    background-color: #BB945F;
 }
 /* ------------------- */
 .footer {
