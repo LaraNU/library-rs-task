@@ -255,6 +255,9 @@ html, body {
 .carousel__books {
 }
 .carousel__books-items {
+    display: flex;
+    gap: 40px 260px;
+    flex-wrap: wrap;
 }
 .carousel__books-item {
     border: 1px solid #000;
@@ -279,7 +282,7 @@ html, body {
     font-size: 15px;
     font-weight: 700;
     line-height: 266.667%;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -292,6 +295,7 @@ html, body {
     letter-spacing: 2px;
     text-transform: capitalize;
     margin-bottom: 15px;
+    min-height: 320px;
 }
 .books-item_btn {
     color: #0C0C0E;
