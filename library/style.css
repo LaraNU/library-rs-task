@@ -214,5 +214,34 @@ html, body {
     background-color: #BB945F;
 }
 /* ------------------- */
+.favorites {
+}
+.favorites__container {
+}
+.favorites__title {
+}
+.favorites__text {
+    margin: 20px 0;
+}
+.line {
+}
+.favorite__season {
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px 0;
+}
+.favorite__season__checked {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.favorite__season__checked label.active{
+    font-weight: 700;
+}
+.favorite__season__checked label input {
+    margin-right: 20px;
+    accent-color: black;
+}
+/* ------------------- */
 .footer {
 }
