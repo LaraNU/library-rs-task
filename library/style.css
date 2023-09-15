@@ -361,6 +361,61 @@ html, body {
     letter-spacing: 2px;
     margin: 40px 0;
 }
+.coffee-shop__row {
+    display: flex;
+    justify-content: space-between;
+}
+.coffee-shop__column-drinks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.coffee-shop__subtitle {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+._drinks {
+}
+.drinks__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.drinks__item {
+    line-height: 200% ;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    justify-content: space-between;
+}
+.drinks__item div {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.line-item {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    display: inline-block;
+}
+.price {
+    font-family: Forum;
+}
+.coffee-shop__column-food {
+}
+._food {
+}
+.food__items {
+}
+.food__item {
+}
 /* ------------------- */
 .footer {
 }
