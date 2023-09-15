@@ -324,6 +324,10 @@ html, body {
     border: 1px solid #BB945F;
     color: #BB945F;
 }
+*:disabled {
+    border: 1px solid #BB945F;
+    color: #BB945F;
+}
 .books-item_img {
     position: absolute;
     top: 255px;
