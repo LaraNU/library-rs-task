@@ -260,11 +260,20 @@ html, body {
     gap: 40px 260px;
     flex-wrap: wrap;
 }
+.carousel__books-items.books__spring {
+    display: none;
+}
+.carousel__books-items.books__summer {
+    display: none;
+}
+.carousel__books-items.books__autumn {
+    display: none;
+}
 .carousel__books-item {
     border: 1px solid #000;
     width: 550px;
     height: 555px;
-    padding: 14px 174px 14px 19px;
+    padding: 14px 14px 14px 19px;
     position: relative;
 }
 .books-item_title {
@@ -283,7 +292,7 @@ html, body {
     font-size: 15px;
     font-weight: 700;
     line-height: 266.667%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -297,6 +306,7 @@ html, body {
     text-transform: capitalize;
     margin-bottom: 15px;
     min-height: 320px;
+    max-width: 355px;
 }
 .books-item_btn {
     color: #0C0C0E;
