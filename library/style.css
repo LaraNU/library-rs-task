@@ -252,6 +252,7 @@ html, body {
     height: 17px;
 }
 .favorite__carousel__books {
+    margin-bottom: 40px;
 }
 .carousel__books {
 }
