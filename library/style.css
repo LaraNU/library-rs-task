@@ -365,7 +365,7 @@ html, body {
     display: flex;
     justify-content: space-between;
 }
-.coffee-shop__column-drinks {
+.coffee-shop__column {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -378,14 +378,17 @@ html, body {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+.coffee-shop__subtitle._food {
+    text-align: end;
+}
 ._drinks {
 }
-.drinks__items {
+.coffee-shop__items {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
 }
-.drinks__item {
+.coffee-shop__item {
     line-height: 200% ;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -394,7 +397,10 @@ html, body {
     column-gap: 60px;
     justify-content: space-between;
 }
-.drinks__item div {
+.coffee-shop__item._food {
+    justify-content: flex-end;
+}
+.coffee-shop__item div {
     display: flex;
     align-items: center;
     column-gap: 60px;
